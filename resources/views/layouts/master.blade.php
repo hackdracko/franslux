@@ -39,45 +39,11 @@
                 </div>
                 <div class="col-md-6" data-animate="fadeInDown">
                     <ul class="menu">
-                        <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
-                        </li>
-                        <li><a href="register.html">Register</a>
-                        </li>
-                        <li><a href="contact.html">Contact</a>
+                        <li><a href="{{ url('/logout') }}">Logout</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title" id="Login">Customer login</h4>
-                        </div>
-                        <div class="modal-body">
-                            <form action="customer-orders.html" method="post">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="email-modal" placeholder="email">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" id="password-modal" placeholder="password">
-                                </div>
-
-                                <p class="text-center">
-                                    <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
-                                </p>
-
-                            </form>
-
-                            <p class="text-center text-muted">Not registered yet?</p>
-                            <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
 
         <div class="navbar navbar-default yamm" role="navigation" id="navbar">
@@ -93,13 +59,6 @@
                             <span class="sr-only">Toggle navigation</span>
                             <i class="fa fa-align-justify"></i>
                         </button>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
-                            <span class="sr-only">Toggle search</span>
-                            <i class="fa fa-search"></i>
-                        </button>
-                        <a class="btn btn-default navbar-toggle" href="basket.html">
-                            <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
-                        </a>
                     </div>
                 </div>
                 <!--/.navbar-header -->
@@ -198,7 +157,7 @@
 
                     </div>
                     <div class="col-md-6">
-                        <p class="pull-right">Template by <a href="http://www.bootstrapious.com">Responsive Templates</a> with support from <a href="http://kakusei.cz">Designové předměty</a>
+                        <p class="pull-right">Support from <a href="http://ian.jeegox.com">Hackdracko</a>
                             <!-- Not removing these links is part of the licence conditions of the template. Thanks for understanding :) -->
                         </p>
                     </div>

@@ -12,7 +12,7 @@
 
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6" data-animate="fadeInDown">
                 <div class="box">
                     <h1>Misión</h1>
 
@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6" data-animate="fadeInDown">
                 <div class="box">
                     <h1>Visión</h1>
 
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="col-md-12">
+            <div class="col-md-12" data-animate="fadeInDown">
                 <div class="box">
                     <h1>Logo</h1>
 

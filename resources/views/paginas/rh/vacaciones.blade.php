@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9" data-animate="fadeInDown">
             <div class="box" id="contact">
                 <h1>Vacaciones</h1>
                 <table class="table table-responsive table-hover">

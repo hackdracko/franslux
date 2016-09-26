@@ -12,7 +12,7 @@
 
         </div>
 
-        <div class="col-md-12">
+        <div class="col-md-12" data-animate="fadeInDown">
             <div class="box">
                 <h1>Nuestras Políticas</h1>
 
@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="col-md-12">
+        <div class="col-md-12" data-animate="fadeInDown">
             <div class="box">
                 <h1>Procedimientos</h1>
 
@@ -40,7 +40,7 @@
         </div>
 
 
-        <div class="col-md-8 col-lg-offset-2">
+        <div class="col-md-8 col-lg-offset-2" data-animate="fadeInDown">
             <div class="box" id="contact">
                 <h1>Denuncias al código de ética</h1>
 
