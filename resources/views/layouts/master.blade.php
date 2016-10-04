@@ -39,6 +39,8 @@
                 </div>
                 <div class="col-md-6" data-animate="fadeInDown">
                     <ul class="menu">
+                        <li><a href="{{ url('/admin') }}">Administrar Página</a>
+                        </li>
                         <li><a href="{{ url('/logout') }}">Logout</a>
                         </li>
                     </ul>

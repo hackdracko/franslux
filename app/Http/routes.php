@@ -41,6 +41,20 @@ Route::group(['middleware' => 'auth'], function () {
         return view('paginas.rh.vacaciones');
     });
 });
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/admin', function () {
+        return view('admin.index');
+    });
+});
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::resource('/admin/usuarios', 'UserController');
+    Route::get('/admin/usuarios/logicaldelete/{id}', 'UserController@logicaldelete');
+});
+Route::group(['middleware' => 'auth'], function () {
+    Route::resource('/admin/roles', 'RoleController');
+    Route::get('/admin/roles/logicaldelete/{id}', 'RoleController@logicaldelete');
+});
 
 Route::auth();
 
