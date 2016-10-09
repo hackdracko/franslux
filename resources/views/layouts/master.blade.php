@@ -49,10 +49,10 @@
                 </div>
                 <div class="col-md-6" data-animate="fadeInDown">
                     <ul class="menu">
-                        @if($user->hasRole('admin')):
+                        <li><a href="http://cepe.com.mx/franslux/tienda" target="_blank">Tienda</a>
+                        </li>
                         <li><a href="{{ url('/admin') }}">Administrar Página</a>
                         </li>
-                        @endif;
                         <li><a href="{{ url('/logout') }}">Logout</a>
                         </li>
                     </ul>
@@ -131,6 +131,8 @@
                                 <li><a href="/comunicacion">Comunicacion a la Fuerza de Ventas</a>
                                 </li>
                                 <li><a href="/recursoshumanos">Recursos Humanos</a>
+                                </li>
+                                <li><a href="http://cepe.com.mx/franslux/tienda" target="_blank">Tienda</a>
                                 </li>
                             </ul>
                             <hr class="hidden-md hidden-lg hidden-sm">

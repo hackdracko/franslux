@@ -37,14 +37,14 @@
     <div class="container">
         <div class="col-md-6 offer" data-animate="fadeInDown">
         </div>
-        <div class="col-md-6" data-animate="fadeInDown">
+        <!--<div class="col-md-6" data-animate="fadeInDown">
             <ul class="menu">
                 <li><a href="{{ url('/login') }}">Login</a>
                 </li>
                 <li><a href="{{ url('/register') }}">Registro</a>
                 </li>
             </ul>
-        </div>
+        </div>-->
     </div>
 </div>
 

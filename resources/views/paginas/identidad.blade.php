@@ -14,11 +14,8 @@
 
             <div class="col-md-6" data-animate="fadeInDown">
                 <div class="box">
-                    <h1>Misión</h1>
-
-                    <p class="lead">Not our registered customer yet?</p>
-                    <p>With registration with us new world of fashion, fantastic discounts and much more opens to you! The whole process will not take you more than a minute!</p>
-                    <p class="text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
+                    <h1>Nuestra Misión</h1>
+                    <p>Proveer marcas que generen valor para la vida de los consumidores. Ellos nos recompensan con liderazgo en ventas y utilidades, llevando con esto a que nuestra gente, y comunidades prosperen.</p>
 
                     <hr>
 
@@ -27,12 +24,8 @@
 
             <div class="col-md-6" data-animate="fadeInDown">
                 <div class="box">
-                    <h1>Visión</h1>
-
-                    <p class="lead">Not our registered customer yet?</p>
-                    <p>With registration with us new world of fashion, fantastic discounts and much more opens to you! The whole process will not take you more than a minute!</p>
-                    <p class="text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
-
+                    <h1>Nuestra Visión</h1>
+                    <p>Ser creadores de marcas innovadoras, y un sinónimo en la industria de elegancia y responsabilidad ética</p>
                     <hr>
                 </div>
             </div>
