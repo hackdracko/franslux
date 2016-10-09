@@ -154,4 +154,11 @@ class UserController extends Controller
     {
         //
     }
+
+    public function combousuarios(Request $request)
+    {
+        $term = $request['term'];
+        $usuarios = User::where('name', 'like', '%' . $term . '%')->get();
+        return response()->json($usuarios);
+    }
 }

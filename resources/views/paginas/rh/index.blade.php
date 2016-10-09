@@ -23,9 +23,9 @@
                         <li>
                             <a href="{{ url('/recursoshumanos/recibos') }}">Recibos</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a href="{{ url('/recursoshumanos/vacaciones') }}">Vacaciones</a>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>

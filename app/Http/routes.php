@@ -32,9 +32,9 @@ Route::group(['middleware' => 'auth'], function () {
     });
 });
 Route::group(['middleware' => 'auth'], function () {
-    Route::get('/recursoshumanos/recibos', function () {
+    /*Route::get('/recursoshumanos/recibos', function () {
         return view('paginas.rh.recibos');
-    });
+    });*/
 });
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/recursoshumanos/vacaciones', function () {
@@ -49,11 +49,19 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::group(['middleware' => 'auth'], function () {
     Route::resource('/admin/usuarios', 'UserController');
+    Route::post('/usuarios/combo', 'UserController@combousuarios');
     Route::get('/admin/usuarios/logicaldelete/{id}', 'UserController@logicaldelete');
 });
+
 Route::group(['middleware' => 'auth'], function () {
     Route::resource('/admin/roles', 'RoleController');
     Route::get('/admin/roles/logicaldelete/{id}', 'RoleController@logicaldelete');
+});
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::resource('/admin/recibos', 'ReciboController');
+    Route::get('/admin/recibos/logicaldelete/{id}', 'ReciboController@logicaldelete');
+    Route::get('/recursoshumanos/recibos', 'ReciboController@recibosByUser');
 });
 
 Route::auth();

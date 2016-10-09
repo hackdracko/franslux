@@ -29,6 +29,16 @@
         <!-- your stylesheet with modifications -->
         <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
         <script src="{{ asset('js/respond.min.js') }}"></script>
+
+        <!-- ESTILOS DATEPICKER BOOTSTRAP-->
+        <link rel="stylesheet" type="text/css" href="{{ asset('bootstrap-datepicker/css/bootstrap-datepicker.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('bootstrap-datepicker/css/bootstrap-datepicker3.min.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css') }}">
+        <!-- ESTILOS SELEC2 BOOTSTRAP-->
+        <link rel="stylesheet" type="text/css" href="{{ asset('select2/css/select2.min.css') }}">
+        <!-- ESTILOS SWEETALERT BOOTSTRAP-->
+        <link rel="stylesheet" type="text/css" href="{{ asset('bootstrap-sweetalert/css/sweetalert.css') }}">
         <link rel="shortcut icon" href="favicon.png">
     </head>
 
@@ -39,8 +49,10 @@
                 </div>
                 <div class="col-md-6" data-animate="fadeInDown">
                     <ul class="menu">
+                        @if($user->hasRole('admin')):
                         <li><a href="{{ url('/admin') }}">Administrar Página</a>
                         </li>
+                        @endif;
                         <li><a href="{{ url('/logout') }}">Logout</a>
                         </li>
                     </ul>
@@ -179,5 +191,30 @@
         <script src="{{ asset('js/bootstrap-hover-dropdown.js') }}"></script>
         <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('js/front.js') }}"></script>
+        <!-- DATEPICKER PLUGIN -->
+        <script src="{{ asset('bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
+        <script src="{{ asset('bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js') }}"></script>
+        <!-- SELECT2 PLUGIN -->
+        <script src="{{ asset('select2/js/select2.min.js') }}"></script>
+        <script src="{{ asset('select2/js/i18n/es.js') }}"></script>
+        <!-- SWEETALERT PLUGIN -->
+        <script src="{{ asset('bootstrap-sweetalert/js/sweetalert.min.js') }}"></script>
+        <script type="text/javascript">
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+        </script>
+        <script type="text/javascript">
+            $('.calendario').datepicker({
+                format: "dd/mm/yyyy",
+                language: "es",
+                autoclose: true
+            });
+            var token = $("#_token").val();
+        </script>
+        @yield('javascript')
+
     </body>
 </html>
