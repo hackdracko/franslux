@@ -37,6 +37,11 @@ Route::group(['middleware' => 'auth'], function () {
     });*/
 });
 Route::group(['middleware' => 'auth'], function () {
+    Route::get('/recursoshumanos/documentos', function () {
+        return view('paginas.rh.documentos');
+    });
+});
+Route::group(['middleware' => 'auth'], function () {
     Route::get('/recursoshumanos/vacaciones', function () {
         return view('paginas.rh.vacaciones');
     });
