@@ -1,5 +1,8 @@
 @extends('layouts.master')
 @section('content')
+    <style type="text/css">
+        iframe{overflow-x: scroll; overflow-y: scroll }
+    </style>
     <div class="container">
 
         <div class="col-md-12">
@@ -11,7 +14,7 @@
             </ul>
 
         </div>
-        <div class="col-md-3">
+        <div class="col-md-12">
             <div class="panel panel-default sidebar-menu">
 
                 <div class="panel-heading">
@@ -30,10 +33,11 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-9" data-animate="fadeInDown">
+        <div class="col-md-12" data-animate="fadeInDown">
             <div class="box" id="contact">
                 <h1>Recibos</h1>
-                <table class="table table-responsive table-hover">
+                <iframe src="http://apps.rfacil.com/CONSULTANOMINA_FRANSLUX/Public/IniciaAutoFacturacion.aspx?ReturnUrl=%2fCONSULTANOMINA_FRANSLUX" width="100%" height="600" id="frameDemo"></iframe>
+                <!-- <table class="table table-responsive table-hover">
                     <thead>
                         <th class="table-text text-center">ID</th>
                         <th class="table-text text-center">Fecha del Recibo</th>
@@ -58,7 +62,7 @@
 
                     @endforeach
                     </tbody>
-                </table>
+                </table>-->
             </div>
         </div>
 @endsection
