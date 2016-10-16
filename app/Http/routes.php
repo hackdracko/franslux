@@ -32,6 +32,11 @@ Route::group(['middleware' => 'auth'], function () {
     });
 });
 Route::group(['middleware' => 'auth'], function () {
+    Route::get('/sistemas', function () {
+        return view('paginas.sistemas');
+    });
+});
+Route::group(['middleware' => 'auth'], function () {
     /*Route::get('/recursoshumanos/recibos', function () {
         return view('paginas.rh.recibos');
     });*/

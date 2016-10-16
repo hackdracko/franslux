@@ -16,105 +16,236 @@
 
     <meta name="keywords" content="">
 
-    <!-- styles -->
-    <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/owl.theme.css') }}" rel="stylesheet">
 
-    <!-- theme stylesheet -->
-    <link href="{{ asset('css/style.default.css') }}" rel="stylesheet" id="theme-stylesheet">
 
-    <!-- your stylesheet with modifications -->
-    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
-    <script src="{{ asset('js/respond.min.js') }}"></script>
-    <link rel="shortcut icon" href="favicon.png">
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <!-- Awesome Fonts -->
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}">
+    <!-- Bootstrap -->
+    <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
+    <!-- Template Styles -->
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/colors.css') }}">
+    <!-- Layer Slider -->
+    <link rel="stylesheet" href="{{ asset('layerslider/css/layerslider.css') }}" type="text/css">
+
+    <!-- Switcher Only -->
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="{{ asset('switcher/css/switcher.css') }}" media="all" />
+    <!-- END Switcher Styles -->
+
+    <!-- Demo Examples -->
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/orange.css') }}" title="orange" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/turquoise.css') }}" title="orange" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/yellow.css') }}" title="yellow" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/blue.css') }}" title="blue" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/red.css') }}" title="red" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/green.css') }}" title="green" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/brown.css') }}" title="brown" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/dark.css') }}" title="dark" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/rose.css') }}" title="rose" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/pink.css') }}" title="pink" media="all" />
+    <!-- END Demo Examples -->
+
+    <!-- http://www.456bereastreet.com/archive/201209/tell_css_that_javascript_is_available_asap/ -->
+    <script>
+        document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '$1js$2');
+    </script>
+
+    <!-- Support for HTML5 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Enable media queries on older browsers -->
+    <!--[if lt IE 9]>
+    <script src="{{ asset('assets/js/respond.min.js') }}"></script>
+    <![endif]-->
+
+    <script src="{{ asset('js/modernizr.js') }}"></script>
 </head>
 
 <body>
-<div id="top">
+<div class="topbar clearfix">
     <div class="container">
-        <div class="col-md-6 offer" data-animate="fadeInDown">
-        </div>
-        <!--<div class="col-md-6" data-animate="fadeInDown">
-            <ul class="menu">
-                <li><a href="{{ url('/login') }}">Login</a>
-                </li>
-                <li><a href="{{ url('/register') }}">Registro</a>
-                </li>
-            </ul>
-        </div>-->
-    </div>
-</div>
-
-<div class="navbar navbar-default yamm" role="navigation" id="navbar">
-    <div class="container">
-        <div class="navbar-header">
-
-            <a class="navbar-brand home" href="/" data-animate-hover="bounce">
-                <img src="{{ asset('img/logo.png') }}" alt="Obaju logo" class="hidden-xs">
-                <img src="{{ asset('img/logo-small.png') }}" alt="Franslux" class="visible-xs"><span class="sr-only">Franslux</span>
-            </a>
-            <div class="navbar-buttons">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-                    <span class="sr-only">Toggle navigation</span>
-                    <i class="fa fa-align-justify"></i>
-                </button>
+        <div class="col-lg-6 col-md-6 col-sm-12 text-left">
+            <div class="social_buttons">
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-github"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
             </div>
         </div>
+    </div><!-- end container -->
+</div><!-- end topbar -->
 
-        <div class="collapse clearfix" id="search">
-
-            <form class="navbar-form" role="search">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <span class="input-group-btn">
-
-                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
-
-                    </span>
+<header class="header">
+    <div class="container">
+        <div class="site-header clearfix">
+            <div class="col-lg-3 col-md-3 col-sm-12 title-area pull-left">
+                <div class="site-title" id="title">
+                    <a href="/" title="">
+                        <img src="{{ url('images/logo.png') }}" alt="">
+                    </a>
                 </div>
-            </form>
-
-        </div>
-        <!--/.nav-collapse -->
-
-    </div>
-    <!-- /.container -->
+            </div><!-- title area -->
+            <div class="col-lg-9 col-md-12 col-sm-12">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div><!-- title area -->
+        </div><!-- site header -->
+    </div><!-- end container -->
+</header><!-- end header -->
+<div id="content">
+    @yield('content')
 </div>
-<div id="all">
-
-    <div id="content">
-        @yield('content')
-    </div>
-    <!-- /#footer -->
-    <div id="copyright">
-        <div class="container">
-            <div class="col-md-6">
-                <p class="pull-left">© 2016 Franslux</p>
-
-            </div>
-            <div class="col-md-6">
-                <p class="pull-right">Support from <a href="http://ian.jeegox.com">Hackdracko</a>
-                    <!-- Not removing these links is part of the licence conditions of the template. Thanks for understanding :) -->
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- *** COPYRIGHT END *** -->
-</div>
+<div class="dmtop">Scroll to Top</div>
 <!-- /#all -->
 
 <!-- *** SCRIPTS TO INCLUDE ***
-_________________________________________________________ -->
-<script src="{{ asset('js/jquery-1.11.0.min.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/jquery.cookie.js') }}"></script>
-<script src="{{ asset('js/waypoints.min.js') }}"></script>
-<script src="{{ asset('js/modernizr.js') }}"></script>
-<script src="{{ asset('js/bootstrap-hover-dropdown.js') }}"></script>
-<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('js/front.js') }}"></script>
+<!-- Main Scripts-->
+<script src="{{ asset('assets/js/jquery.js') }}"></script>
+<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.unveilEffects.js') }}"></script>
+<script src="{{ asset('js/retina-1.1.0.js') }}"></script>
+<script src="{{ asset('js/jquery.hoverdir.js') }}"></script>
+<script src="{{ asset('js/hovermenu.js') }}"></script>
+<script src="{{ asset('js/jquery.hoverex.min.js') }}"></script>
+<script src="{{ asset('js/jquery.prettyPhoto.js') }}"></script>
+<script src="{{ asset('js/jquery.jigowatt.js') }}"></script>
+<script src="{{ asset('js/custom.js') }}"></script>
+
+<!-- LayerSlider script files -->
+<script src="{{ asset('layerslider/js/greensock.js') }}" type="text/javascript"></script>
+<script src="{{ asset('layerslider/js/layerslider.transitions.js') }}" type="text/javascript"></script>
+<script src="{{ asset('layerslider/js/layerslider.kreaturamedia.jquery.js') }}" type="text/javascript"></script>
+<!-- Initializing the slider -->
+<script type="text/javascript">
+    jQuery("#layerslider").layerSlider({
+        pauseOnHover: false,
+        autoPlayVideos: false,
+        responsive: false,
+        responsiveUnder: 1280,
+        layersContainer: 1280,
+        skin: 'v5',
+        skinsPath: "{{ asset('layerslider/skins/')}}"
+    });
+</script>
+
+<script src="{{ asset('js/jquery.animate-enhanced.min.js') }}"></script>
+<script src="{{ asset('js/jquery.easypiechart.min.js') }}"></script>
+<!-- ADD Switcher -->
+<div class="demo_changer text-center">
+    <div class="demo-icon"></div>
+    <div class="form_holder">
+        <div class="line"></div>
+        <div class="col-lg-12">
+            <p>Elige tu color favorito</p>
+            <div class="predefined_styles">
+                <a href="#" rel="turquoise" class="styleswitch"><img src="{{ asset('switcher/images/turquoise.jpg') }}" alt=""></a>
+                <a href="#" rel="orange" class="styleswitch"><img src="{{ asset('switcher/images/orange.jpg') }}" alt=""></a>
+                <a href="#" rel="yellow" class="styleswitch"><img src="{{ asset('switcher/images/yellow.jpg') }}" alt=""></a>
+                <a href="#" rel="blue" class="styleswitch"><img src="{{ asset('switcher/images/blue.jpg') }}" alt=""></a>
+                <a href="#" rel="red" class="styleswitch"><img src="{{ asset('switcher/images/red.jpg') }}" alt=""></a>
+                <a href="#" rel="green" class="styleswitch"><img src="{{ asset('switcher/images/green.jpg') }}" alt=""></a>
+                <a href="#" rel="brown" class="styleswitch"><img src="{{ asset('switcher/images/brown.jpg') }}" alt=""></a>
+                <a href="#" rel="dark" class="styleswitch"><img src="{{ asset('switcher/images/dark.jpg') }}" alt=""></a>
+                <a href="#" rel="rose" class="styleswitch"><img src="{{ asset('switcher/images/rose.jpg') }}" alt=""></a>
+                <a href="#" rel="pink" class="styleswitch"><img src="{{ asset('switcher/images/pink.jpg') }}" alt=""></a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <!--<div class="col-lg-12 clearfix">
+                    <p>Elige una imagen<br>
+                        (Select boxed layout)</p>
+                    <div class="predefined_styles">
+                        <a id="bg1"><img src="{{ asset('switcher/images/bg1.png') }}" alt="" /></a>
+                        <a id="bg2"><img src="{{ asset('switcher/images/bg2.png') }}" alt="" /></a>
+                        <a id="bg3"><img src="{{ asset('switcher/images/bg3.png') }}" alt="" /></a>
+                        <a id="bg4"><img src="{{ asset('switcher/images/bg4.png') }}" alt="" /></a>
+                        <a id="bg5"><img src="{{ asset('switcher/images/bg5.png') }}" alt="" /></a>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <p>SELECT LAYOUT</p>
+                    <select class="form-control" name="forma" onchange="location = this.options[this.selectedIndex].value;">
+                        <option value="">-- Select --</option>
+                        <option value="index.html">Wide</option>
+                        <option value="index-boxed.html">Boxed</option>
+                    </select>
+
+                    <div class="line"></div>
+
+                    <a rel="stylesheet" class="button styleswitch" href="indexc392.html?default=true">RESET STYLE</a>
+
+                    <div class="line"></div>
+
+                </div>-->
+    </div><!-- END Switcher -->
+</div>
+
+<!-- Demo Switcher JS -->
+<script type="text/javascript" src="{{ asset('switcher/js/fswit.js') }}"></script>
+<script type="text/javascript" src="{{ asset('switcher/js/jquery.backstretch.js') }}"></script>
+<script>
+    $("#bg1").click(function(e) {
+        e.preventDefault();
+        $.backstretch("{{ asset('switcher/images/b1-big.png') }}");
+    });
+
+    $("#bg2").click(function(e) {
+        e.preventDefault();
+        $.backstretch("{{ asset('switcher/images/b2-big.png') }}");
+    });
+
+    $("#bg3").click(function(e) {
+        e.preventDefault();
+        $.backstretch("{{ asset('switcher/images/b3-big.png') }}");
+    });
+    $("#bg4").click(function(e) {
+        e.preventDefault();
+        $.backstretch("{{ asset('switcher/images/b4-big.png') }}");
+    });
+    $("#bg5").click(function(e) {
+        e.preventDefault();
+        $.backstretch("{{ asset('switcher/images/b5-big.png') }}");
+    });
+</script>
+<!-- DATEPICKER PLUGIN -->
+<script src="{{ asset('bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
+<script src="{{ asset('bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js') }}"></script>
+<!-- SELECT2 PLUGIN -->
+<script src="{{ asset('select2/js/select2.min.js') }}"></script>
+<script src="{{ asset('select2/js/i18n/es.js') }}"></script>
+<!-- SWEETALERT PLUGIN -->
+<script src="{{ asset('bootstrap-sweetalert/js/sweetalert.min.js') }}"></script>
+<script type="text/javascript">
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
+<script type="text/javascript">
+    $('.calendario').datepicker({
+        format: "dd/mm/yyyy",
+        language: "es",
+        autoclose: true
+    });
+    var token = $("#_token").val();
+</script>
+
 </body>
 </html>

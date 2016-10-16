@@ -80,6 +80,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 text-right social_buttons">
+                    <div class="col-md-6">
+                        Bienvenido {{ Auth::user()->name }} | {{ Auth::user()->email }}
+                    </div>
+                </div>
+                <div class="col-md-offset-6 col-lg-6 col-md-6 col-sm-12 text-right social_buttons">
                     <div class="col-md-2">
                         <a href="http://cepe.com.mx/franslux/tienda" target="_blank">Tienda</a>
                     </div>
@@ -122,6 +127,8 @@
                                     <li class="{{ Request::is('comunicacion') ? 'active' : '' }}"><a href="/comunicacion">Comunicación a la fuerza de ventas</a>
                                     </li>
                                     <li class="{{ Request::is('recursoshumanos') || Request::is('recursoshumanos/recibos') || Request::is('recursoshumanos/vacaciones') ? 'active' : '' }}"><a href="/recursoshumanos">RH +</a>
+                                    </li>
+                                    <li class="{{ Request::is('sistemas') ? 'active' : '' }}"><a href="/sistemas">Sistemas</a>
                                     </li>
                                 </ul>
                             </div><!-- /.navbar-collapse -->
@@ -360,7 +367,7 @@
 
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <script src="{{ asset('js/jquery.gmap.js') }}"></script>
-        <script type="text/javascript">
+        <!--<script type="text/javascript">
             var mapMarkers = [{
                 address: "Saskatoon, SK S7V 0A4 Canada",
                 html: "<strong>We Are ENVATO!</strong><br>Saskatoon, SK S7V 0A4 Canada<br><br><a href='#' onclick='mapCenterAt({latitude: 52.100343, longitude: -106.551482, zoom: 16}, event)'>[+] View Original Map</a>",
@@ -392,7 +399,7 @@
                 e.preventDefault();
                 $("#googlemaps").gMap("centerAt", options);
             }
-        </script>
+        </script>-->
 
         <!-- ADD Switcher -->
         <div class="demo_changer text-center">
@@ -400,7 +407,7 @@
             <div class="form_holder">
                 <div class="line"></div>
                 <div class="col-lg-12">
-                    <p>COLORS SCHEME</p>
+                    <p>Elige tu color favorito</p>
                     <div class="predefined_styles">
                         <a href="#" rel="turquoise" class="styleswitch"><img src="{{ asset('switcher/images/turquoise.jpg') }}" alt=""></a>
                         <a href="#" rel="orange" class="styleswitch"><img src="{{ asset('switcher/images/orange.jpg') }}" alt=""></a>
@@ -415,8 +422,8 @@
                     </div>
                 </div>
                 <div class="line"></div>
-                <div class="col-lg-12 clearfix">
-                    <p>BACKGROUND IMAGE<br>
+                <!--<div class="col-lg-12 clearfix">
+                    <p>Elige una imagen<br>
                         (Select boxed layout)</p>
                     <div class="predefined_styles">
                         <a id="bg1"><img src="{{ asset('switcher/images/bg1.png') }}" alt="" /></a>
@@ -441,7 +448,7 @@
 
                     <div class="line"></div>
 
-                </div><!-- END Form Holder -->
+                </div>-->
             </div><!-- END Switcher -->
         </div>
 

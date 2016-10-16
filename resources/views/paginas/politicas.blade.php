@@ -1,47 +1,33 @@
 @extends('layouts.master')
 @section('content')
-    <div class="container">
+    <div class="col-md-12">
 
-        <div class="col-md-12">
+        <ul class="breadcrumb">
+            <li><a href="#">Políticas y Procedimientos</a>
+            </li>
+            <li>Nuestras Políticas/Código de Ética</li>
+        </ul>
 
-            <ul class="breadcrumb">
-                <li><a href="#">Políticas y Procedimientos</a>
-                </li>
-                <li>Nuestras Políticas/Código de Ética</li>
-            </ul>
+    </div>
 
-        </div>
-
-        <div class="col-md-12" data-animate="fadeInDown">
-            <div class="box">
-                <h1>Nuestras Políticas</h1>
-
-                <p class="lead">Not our registered customer yet?</p>
-                <p>With registration with us new world of fashion, fantastic discounts and much more opens to you! The whole process will not take you more than a minute!</p>
-                <p class="text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
-
-                <hr>
-
+    <section class="section2">
+        <div class="message text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2 class="big-title">Nuestras Políticas</h2>
+                <p class="small-title">Nuestro Código de Conducta Ética, busca dar lineamiento a los miembros del Consejo de Administración, los
+                    directivos, colaboradores y personal que desempeña algún cargo dentro de FRANSLUX, para que cumplan de
+                    manera obligatoria con todas las leyes aplicables, reglas y reglamentos así como con las políticas y estándares de
+                    calidad de FRANSLUX. La observancia de éste Código de Conducta Ética es también obligatoria para las empresas
+                    que prestan servicios a FRANSLUX, así como a proveedores.
+                    <hr>
+                    <embed src="{{ asset('archivos/empresa/PoliticadeCodigodeConductaEtica.pdf') }}" width="800px" height="800px" />
+                </p>
             </div>
-        </div>
-
-        <div class="col-md-12" data-animate="fadeInDown">
-            <div class="box">
-                <h1>Procedimientos</h1>
-
-                <p class="lead">Not our registered customer yet?</p>
-                <p>With registration with us new world of fashion, fantastic discounts and much more opens to you! The whole process will not take you more than a minute!</p>
-                <p class="text-muted">If you have any questions, please feel free to <a href="contact.html">contact us</a>, our customer service center is working for you 24/7.</p>
-
-                <hr>
-
-            </div>
-
-        </div>
-
-
-        <div class="col-md-8 col-lg-offset-2" data-animate="fadeInDown">
-            <div class="box" id="contact">
+        </div><!-- end message -->
+    </section><!-- end section2 -->
+    <section class="transparent clearfix">
+        <div class="transparent-wrap">
+            <div class="container">
                 <h1>Denuncias al código de ética</h1>
 
                 <form>
@@ -76,12 +62,10 @@
 
                         </div>
                     </div>
-                        <!-- /.row -->
-                    </form>
+                    <!-- /.row -->
+                </form>
 
-
-                </div>
-        </div>
-            <!-- /.col-md-9 -->
-    <!-- /.container -->
+            </div> <!-- end clients wrap -->
+        </div><!-- end container -->
+    </section><!-- end of clients -->
 @endsection

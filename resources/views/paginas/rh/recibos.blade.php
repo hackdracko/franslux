@@ -14,16 +14,13 @@
             </ul>
 
         </div>
-        <div class="col-md-12">
-            <div class="panel panel-default sidebar-menu">
-
-                <div class="panel-heading">
-                    <h3 class="panel-title">Menu</h3>
-                </div>
-
-                <div class="panel-body">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li>
+        <section class="videobg clearfix text-center" style="position: relative;">
+            <a id="volume" onclick="$('#bgndVideo').toggleVolume()"><i class="fa fa-volume-down"></i></a>
+            <a id="bgndVideo" class="player mb_YTVPlayer" data-property="{videoURL:'http://www.youtube.com/watch?v=W7Las-MJnJo',containment:'body',autoPlay:true, mute:true, startAt:33, opacity:1}" style="display: none; background: none;">youtube</a>
+            <div class="videobg-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <ul class="nav nav-tabs nav-stacked">
+                        <li class="active">
                             <a href="{{ url('/recursoshumanos/recibos') }}">Recibos</a>
                         </li>
                         <li>
@@ -34,13 +31,10 @@
                         </li>-->
                     </ul>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-12" data-animate="fadeInDown">
-            <div class="box" id="contact">
-                <h1>Recibos</h1>
-                <iframe src="http://apps.rfacil.com/CONSULTANOMINA_FRANSLUX/Public/IniciaAutoFacturacion.aspx?ReturnUrl=%2fCONSULTANOMINA_FRANSLUX" width="100%" height="600" id="frameDemo"></iframe>
-                <!-- <table class="table table-responsive table-hover">
+                <div class="container">
+                    <h1>Recibos</h1>
+                    <iframe src="http://apps.rfacil.com/CONSULTANOMINA_FRANSLUX/Public/IniciaAutoFacturacion.aspx?ReturnUrl=%2fCONSULTANOMINA_FRANSLUX" width="100%" height="600" id="frameDemo"></iframe>
+                    <!-- <table class="table table-responsive table-hover">
                     <thead>
                         <th class="table-text text-center">ID</th>
                         <th class="table-text text-center">Fecha del Recibo</th>
@@ -50,13 +44,13 @@
                     </thead>
                     <tbody>
                     @foreach ($recibos as $recibo)
-                        <tr>
-                            <td class="table-text text-center">{{ $recibo->id }}</td>
+                            <tr>
+                                <td class="table-text text-center">{{ $recibo->id }}</td>
                             <td class="table-text text-center">{{ $recibo->fechaRecibo }}</td>
                             <td class="table-text text-center">{{ $recibo->observacion }}</td>
                             <td class="table-text text-center">
                                 @foreach($recibo->documentos as $documento)
-                                    <a href="{{ asset('archivos/recibos/'.$documento->ruta) }}" target="_blank" download>{{ $documento->ruta }}</a>
+                            <a href="{{ asset('archivos/recibos/'.$documento->ruta) }}" target="_blank" download>{{ $documento->ruta }}</a>
                                     </br>
                                 @endforeach
                             </td>
@@ -64,8 +58,10 @@
                         </tr>
 
                     @endforeach
-                    </tbody>
-                </table>-->
+                            </tbody>
+                        </table>-->
+                </div>
             </div>
-        </div>
+        </section>
+    </div>
 @endsection

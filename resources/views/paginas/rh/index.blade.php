@@ -11,15 +11,12 @@
             </ul>
 
         </div>
-        <div class="col-md-3">
-            <div class="panel panel-default sidebar-menu">
-
-                <div class="panel-heading">
-                    <h3 class="panel-title">Menu</h3>
-                </div>
-
-                <div class="panel-body">
-                    <ul class="nav nav-pills nav-stacked">
+        <section class="videobg clearfix text-center" style="position: relative;">
+            <a id="volume" onclick="$('#bgndVideo').toggleVolume()"><i class="fa fa-volume-down"></i></a>
+            <a id="bgndVideo" class="player mb_YTVPlayer" data-property="{videoURL:'http://www.youtube.com/watch?v=W7Las-MJnJo',containment:'body',autoPlay:true, mute:true, startAt:33, opacity:1}" style="display: none; background: none;">youtube</a>
+            <div class="videobg-wrap">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <ul class="nav nav-tabs nav-stacked">
                         <li>
                             <a href="{{ url('/recursoshumanos/recibos') }}">Recibos</a>
                         </li>
@@ -31,12 +28,11 @@
                         </li>-->
                     </ul>
                 </div>
+                <div class="container">
+                    <h1>Recursos Humanos</h1>
+                    <p>En esta sección podras consultar tus recibos de nómina asi como consultar y solicitar vacaciones</p>
+                </div>
             </div>
-        </div>
-        <div class="col-md-9" data-animate="fadeInDown">
-            <div class="box" id="contact">
-                <h1>Recursos Humanos</h1>
-                <p>En esta sección podras consultar tus recibos de nómina asi como consultar y solicitar vacaciones</p>
-            </div>
-        </div>
+        </section>
+    </div>
 @endsection

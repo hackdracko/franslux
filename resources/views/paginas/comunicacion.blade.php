@@ -1,19 +1,18 @@
 @extends('layouts.master')
 @section('content')
-    <div class="container">
+    <div class="col-md-12">
 
-        <div class="col-md-12">
+        <ul class="breadcrumb">
+            <li><a href="#">Comunicación a la fuerza de ventas</a>
+            </li>
+            <li>Nuestras Políticas/Código de Ética</li>
+        </ul>
 
-            <ul class="breadcrumb">
-                <li><a href="#">Comunicación a la fuerza de ventas</a>
-                </li>
-                <li>Nuestras Políticas/Código de Ética</li>
-            </ul>
+    </div>
 
-        </div>
-
-        <div class="col-md-12" data-animate="fadeInDown">
-            <div class="box" id="contact">
+    <section class="transparent clearfix">
+        <div class="transparent-wrap">
+            <div class="container">
                 <h1>Comunicación a la fuerza de ventas</h1>
 
                 <form>
@@ -57,9 +56,7 @@
                     <!-- /.row -->
                 </form>
 
-
-            </div>
-        </div>
-        <!-- /.col-md-9 -->
-        <!-- /.container -->
+            </div> <!-- end clients wrap -->
+        </div><!-- end container -->
+    </section><!-- end of clients -->
 @endsection
