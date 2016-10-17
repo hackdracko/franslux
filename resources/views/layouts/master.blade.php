@@ -69,7 +69,7 @@
     <body>
         <div class="topbar clearfix">
             <div class="container">
-                <div class="col-lg-6 col-md-6 col-sm-12 text-left">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-left">
                     <div class="social_buttons">
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
@@ -79,10 +79,8 @@
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 text-right social_buttons">
-                    <div class="col-md-6">
-                        Bienvenido {{ Auth::user()->name }} | {{ Auth::user()->email }}
-                    </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 social_buttons text-right">
+                    Bienvenido {{ Auth::user()->name }} | {{ Auth::user()->email }}
                 </div>
                 <div class="col-md-offset-6 col-lg-6 col-md-6 col-sm-12 text-right social_buttons">
                     <div class="col-md-2">

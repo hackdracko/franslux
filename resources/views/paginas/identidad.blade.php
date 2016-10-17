@@ -121,7 +121,7 @@
                             Support - 24/7 Support Help via Twitter & Email
                         </p>
 
-                        <img class="ls-l" style="top:0;left:70%;white-space: nowrap;" data-ls="durationin:1500;" src="sliderimages/versace1.png" alt="">
+                        <img class="ls-l" style="top:0;left:70%;white-space: nowrap;" data-ls="durationin:1500;" src="sliderimages/newmini.png" alt="">
 
                     </div><!-- end first slide -->
 
@@ -340,13 +340,7 @@
         <section class="section2">
             <div class="message text-center">
                 <div class="col-lg-3 col-md-3 col-sm-12">
-                    <div class="servicebox text-center">
-                        <div class="service-icon">
-                            <div class="dm-icon-effect-1" data-effect="slide-left">
-                                <a href="#" class=""> <i class="dm-icon fa fa-bars fa-3x"></i> </a>
-                            </div>
-                        </div><!-- service-icon -->
-                    </div><!-- servicebox -->
+                    <img src="{{ asset('images/ventas1.jpg') }}" alt="" class="img-responsive">
                 </div><!-- large-3 -->
                 <div class="col-lg-9 col-md-9 col-sm-12">
                     <h2 class="big-title">Nuestra Misión</h2>
@@ -366,12 +360,7 @@
                     <div class="text-center">
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="servicebox text-center">
-                                <div class="service-icon">
-                                    <div class="dm-icon-effect-1" data-effect="slide-left">
-                                        <a href="#" class=""> <i class="dm-icon fa fa-bars fa-3x"></i> </a>
-                                    </div>
-                                </div><!-- service-icon -->
-                            </div><!-- servicebox -->
+                                <img src="{{ asset('images/ventas2.jpg') }}" alt="" class="img-responsive">
                         </div><!-- large-3 -->
                     </div><!-- end message -->
                 </div> <!-- end clients wrap -->
