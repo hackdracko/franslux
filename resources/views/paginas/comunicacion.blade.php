@@ -10,7 +10,7 @@
 
     </div>
 
-    <section class="transparent clearfix">
+    <section class="transparent2 clearfix">
         <div class="transparent-wrap">
             <div class="container">
                 <h1>Comunicación a la fuerza de ventas</h1>
@@ -44,7 +44,7 @@
                         <div class="col-sm-12">
                             <div class="form-group">
                                 <label for="message">Adjuntar Archivo</label>
-                                <input type="file" multiple>
+                                <input type="file" cla multiple>
                             </div>
                         </div>
 

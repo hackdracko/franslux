@@ -121,7 +121,7 @@
                             Support - 24/7 Support Help via Twitter & Email
                         </p>
 
-                        <img class="ls-l" style="top:0;left:70%;white-space: nowrap;" data-ls="durationin:1500;" src="sliderimages/newmini.png" alt="">
+                        <img class="ls-l" style="top:0;left:70%;white-space: nowrap;" data-ls="durationin:1500;" src="sliderimages/versace1.png" alt="">
 
                     </div><!-- end first slide -->
 

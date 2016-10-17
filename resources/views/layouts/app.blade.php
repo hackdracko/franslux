@@ -85,24 +85,12 @@
 <header class="header">
     <div class="container">
         <div class="site-header clearfix">
-            <div class="col-lg-3 col-md-3 col-sm-12 title-area pull-left">
+            <div class="col-lg-12 col-md-12 col-sm-12 title-area text-center">
                 <div class="site-title" id="title">
                     <a href="/" title="">
                         <img src="{{ url('images/logo.png') }}" alt="">
                     </a>
                 </div>
-            </div><!-- title area -->
-            <div class="col-lg-9 col-md-12 col-sm-12">
-                <nav class="navbar navbar-default" role="navigation">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                </nav>
             </div><!-- title area -->
         </div><!-- site header -->
     </div><!-- end container -->
@@ -223,14 +211,6 @@
         $.backstretch("{{ asset('switcher/images/b5-big.png') }}");
     });
 </script>
-<!-- DATEPICKER PLUGIN -->
-<script src="{{ asset('bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
-<script src="{{ asset('bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js') }}"></script>
-<!-- SELECT2 PLUGIN -->
-<script src="{{ asset('select2/js/select2.min.js') }}"></script>
-<script src="{{ asset('select2/js/i18n/es.js') }}"></script>
-<!-- SWEETALERT PLUGIN -->
-<script src="{{ asset('bootstrap-sweetalert/js/sweetalert.min.js') }}"></script>
 <script type="text/javascript">
     $.ajaxSetup({
         headers: {

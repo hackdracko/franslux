@@ -16,7 +16,7 @@
                 <div class="col-md-12">
                     <h2 class="big-title">Manuales de Sistemas</h2>
                 </div>
-                <div class="col-md-offset-4 col-md-8">
+                <div class="col-md-offset-2 col-md-4">
                     <li><p class="text-muted text-left">ACCESO A VPN DE USUARIOS <a href="{{ asset('archivos/manuales/Acceso a VPN para usuarios.docx') }}" download>Descargar</a>.</p></li>
                     <li><p class="text-muted text-left">CORREO FRANSLUX <a href="{{ asset('archivos/manuales/Correo Franslux.com.docx') }}" download>Descargar</a>.</p></li>
                     <li><p class="text-muted text-left">HELP DESK <a href="{{ asset('archivos/manuales/HelpDesk.pdf') }}" download>Descargar</a>.</p></li>
@@ -27,7 +27,9 @@
                     <li><p class="text-muted text-left">R-SI63-011-Rev. 01 CARTA RESPONSIVA CELULAR <a href="{{ asset('archivos/manuales/R-SI63-011-Rev. 01 CARTA RESPONSIVA CELULAR.docx') }}" download>Descargar</a>.</p></li>
                     <li><p class="text-muted text-left">SOLICITUD DE EQUIPO <a href="{{ asset('archivos/manuales/Solicitud de Equipo.pdf') }}" download>Descargar</a>.</p></li>
                 </div>
-
+                <div class="col-md-6">
+                    <img src="{{ asset('images/corporativo-ws.jpg') }}" alt="" class="img-responsive">
+                </div>
             </div>
         </div><!-- end message -->
     </section><!-- end section2 -->
