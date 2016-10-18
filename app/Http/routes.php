@@ -33,7 +33,17 @@ Route::group(['middleware' => 'auth'], function () {
 });
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/sistemas', function () {
-        return view('paginas.sistemas');
+        return view('paginas.sistemas.index');
+    });
+});
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/sistemas/manuales', function () {
+        return view('paginas.sistemas.manuales');
+    });
+});
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/sistemas/helpdesk', function () {
+        return view('paginas.sistemas.helpdesk');
     });
 });
 Route::group(['middleware' => 'auth'], function () {

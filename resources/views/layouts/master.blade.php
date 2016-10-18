@@ -118,7 +118,7 @@
                             </div>
                             <div class="collapse navbar-collapse navbar-ex1-collapse container">
                                 <ul class="nav navbar-nav">
-                                    <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="/">Identidad Coorporativa</a>
+                                    <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="/">Identidad Corporativa</a>
                                     </li>
                                     <li class="{{ Request::is('politicas') ? 'active' : '' }}"><a href="/politicas">Politicas y Procedimientos</a>
                                     </li>
@@ -139,12 +139,12 @@
             @yield('content')
         </div>
         <footer class="footer">
-            <div class="container">
+            <!--<div class="container">
                 <div class="widget col-lg-3 col-md-3 col-sm-12">
                     <h4 class="title">About us</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s..</p>
                     <a class="button small" href="#">read more</a>
-                </div><!-- end widget -->
+                </div>
                 <div class="widget col-lg-3 col-md-3 col-sm-12">
                     <h4 class="title">Recent Posts</h4>
                     <ul class="recent_posts">
@@ -160,8 +160,8 @@
                             </a>
                             <a class="readmore" href="#">read more</a>
                         </li>
-                    </ul><!-- recent posts -->
-                </div><!-- end widget -->
+                    </ul>
+                </div>
                 <div class="widget col-lg-3 col-md-3 col-sm-12">
                     <h4 class="title">Get In Touch</h4>
                     <ul class="contact_details">
@@ -170,8 +170,8 @@
                         <li><i class="fa fa-phone-square"></i> +90 04 333 02 22</li>
                         <li><i class="fa fa-home"></i> Istanbul Universitesi Iletisim Fakultesi, Istanbul, TURKEY</li>
                         <li><a href="#"><i class="fa fa-map-marker"></i> View large map</a></li>
-                    </ul><!-- contact_details -->
-                </div><!-- end widget -->
+                    </ul>
+                </div>
                 <div class="widget col-lg-3 col-md-3 col-sm-12">
                     <h4 class="title">Flickr Stream</h4>
                     <ul class="flickr">
@@ -184,14 +184,16 @@
                         <li><a href="#"><img alt="" src="demos/07_flickr.jpg"></a></li>
                         <li><a href="#"><img alt="" src="demos/08_flickr.jpg"></a></li>
                     </ul>
-                </div><!-- end widget -->
-            </div><!-- end container -->
+                </div>
+            </div> -->
 
             <div class="copyrights">
                 <div class="container">
                     <div class="col-lg-6 col-md-6 col-sm-12 columns">
-                        <p>Copyright © 2014 - All right reserved. Designed by <a title="Premium WordPress Themes" href="http://designingmedia.com/">Designing Media</a>
-                            <br>Preferred Hosting Partner - <a href="https://misshosting.com/hosting/" target="_blank">MissHosting.com,</a> Web Hosting at 1.00€ per month!</p>
+                        <p>Copyright © 2016 - All right reserved.
+                            <br>
+                            Contacto: sistemas@franslux.com info@franslux.com +52 55763200 , Boulevard Toluca No 119 Col San Andrés Atoto, Naucalpan Edo de Mex.
+                        </p>
                     </div><!-- end widget -->
                     <div class="col-lg-6 col-md-6 col-sm-12 columns text-right">
                         <div class="footer-menu right">
@@ -203,6 +205,8 @@
                                 <li class="{{ Request::is('comunicacion') ? 'active' : '' }}"><a href="/comunicacion">Comunicación a la fuerza de ventas</a>
                                 </li>
                                 <li class="{{ Request::is('recursoshumanos') || Request::is('recursoshumanos/recibos') || Request::is('recursoshumanos/vacaciones') ? 'active' : '' }}"><a href="/recursoshumanos">RH +</a>
+                                </li>
+                                <li class="{{ Request::is('sistemas') ? 'active' : '' }}"><a href="/sistemas">Sistemas</a>
                                 </li>
                             </ul>
                         </div>
@@ -243,7 +247,7 @@
             });
         </script>
 
-        <script src="{{ asset('js/owl.carousel.js') }}"></script>
+        <!--<script src="{{ asset('js/owl.carousel.js') }}"></script>
         <script type="text/javascript">
             $(document).ready(function() {
                 $("#popularposts").owlCarousel({
@@ -252,7 +256,7 @@
                     navigation : false
                 });
             });
-        </script>
+        </script>-->
 
         <script src="{{ asset('js/jquery.animate-enhanced.min.js') }}"></script>
         <script src="{{ asset('js/jquery.easypiechart.min.js') }}"></script>

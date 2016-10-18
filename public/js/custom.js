@@ -69,16 +69,16 @@
 	}); 
 
 // Hover and Carousel
-	$('.owl-carousel > .item ').each( function() { $(this).hoverdir(); } );
-		$("#owl-demo").owlCarousel({
-		items : 5,
-		autoPlay: 3000,
-		stopOnHover : true,
-		lazyLoad : true,
-		transitionStyle:"fade",
-		navigation : true,
-		pagination : false,
-	});
+	//$('.owl-carousel > .item ').each( function() { $(this).hoverdir(); } );
+	//$("#owl-demo").owlCarousel({
+	//items : 5,
+	//autoPlay: 3000,
+	//stopOnHover : true,
+	//lazyLoad : true,
+	//transitionStyle:"fade",
+	//navigation : true,
+	//pagination : false,
+	//});
 
 // tooltip demo
 	$("[data-toggle=tooltip]").tooltip();

@@ -13,7 +13,7 @@
             <div id="slider-wrapper">
                 <div id="layerslider" style="width:100%;height:550px;">
                     <div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
-                        <img src="demos/01_sliderbg.png" class="ls-bg" alt="Slide background"/>
+                        <img src="demos/mbg1.jpg" class="ls-bg" alt="Slide background"/>
 
                         <p class="ls-l ls01" style="
                     top:140px;
@@ -126,7 +126,7 @@
                     </div><!-- end first slide -->
 
                     <div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;timeshift:-1000;">
-                        <img src="demos/02_sliderbg.png" class="ls-bg" alt="Slide background"/>
+                        <img src="demos/mbg1.jpg" class="ls-bg" alt="Slide background"/>
 
                         <p class="ls-l ls03" style="
                         top:134px;left:56px;
@@ -209,7 +209,7 @@
                     </div><!-- end second slide -->
 
                     <div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
-                        <img src="sliderimages/newbg.jpg" class="ls-bg" alt="Slide background"/>
+                        <img src="demos/mbg1.jpg" class="ls-bg" alt="Slide background"/>
 
                         <h1 class="ls-l" style="
                     top:60px;
@@ -360,8 +360,9 @@
                     <div class="text-center">
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="servicebox text-center">
-                                <img src="{{ asset('images/ventas2.jpg') }}" alt="" class="img-responsive">
-                        </div><!-- large-3 -->
+                                <img src="{{ asset('images/ventas2.jpg') }}" alt="">
+                            </div><!-- large-3 -->
+                        </div>
                     </div><!-- end message -->
                 </div> <!-- end clients wrap -->
             </div><!-- end container -->
