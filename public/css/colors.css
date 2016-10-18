@@ -25,7 +25,7 @@
 	.title:before,
 	.post-meta a:hover,
 	 .title:after{
-		border-color:#2ACDC9
+		border-color:#464A4E
 	}
 
 	.navbar-default .navbar-nav > .active > a,
@@ -39,11 +39,11 @@
 	.panel-primary > .panel-heading + .panel-collapse .panel-body,
 	.top-bar-section .dropdown,
 	 .top-bar-section .has-dropdown > a:after {
-		border-top-color:#2ACDC9
+		border-top-color:#464A4E
 	}
 	
 	.dm-icon-effect-1 .dm-icon:after {
-		box-shadow: 0 0 0 5px #2ACDC9;
+		box-shadow: 0 0 0 5px #464A4E;
 	}
 
 	.text-primary,
@@ -81,7 +81,7 @@
 	.top-bar-section ul li:hover > a,
 	.top-bar-section ul li.active > a,
 	.recent_posts li a.readmore {
-		color:#2ACDC9;
+		color:#464A4E;
 	}
 
 	.pagination > .active > a,
@@ -146,12 +146,12 @@
 	#bbpress-forums li.bbp-body ul.forum li.bbp-forum-topic-count,
 	#bbpress-forums li.bbp-body ul.forum li.bbp-forum-reply-count,
 	.dmtop {
-		background-color:#2ACDC9;
+		background-color:#464A4E;
 	}
 	
 	.services_lists_boxes_icon_none i:hover,
 	.services_lists_boxes_icon i:hover {
-		background:#2ACDC9 !important;
+		background:#464A4E !important;
 	}
 	.transparent-wrap {
 		background-color: rgba(42, 205, 201, 0.6);

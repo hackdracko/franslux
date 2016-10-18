@@ -32,20 +32,20 @@
         <link rel="stylesheet" href="{{ asset('layerslider/css/layerslider.css') }}" type="text/css">
 
         <!-- Switcher Only -->
-        <link rel="stylesheet" id="switcher-css" type="text/css" href="{{ asset('switcher/css/switcher.css') }}" media="all" />
+        <!-- <link rel="stylesheet" id="switcher-css" type="text/css" href="{{ asset('switcher/css/switcher.css') }}" media="all" />-->
         <!-- END Switcher Styles -->
 
-        <!-- Demo Examples -->
+        <!-- Demo Examples
         <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/orange.css') }}" title="orange" media="all" />
         <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/turquoise.css') }}" title="orange" media="all" />
         <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/yellow.css') }}" title="yellow" media="all" />
         <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/blue.css') }}" title="blue" media="all" />
         <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/red.css') }}" title="red" media="all" />
         <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/green.css') }}" title="green" media="all" />
-        <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/brown.css') }}" title="brown" media="all" />
+        <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/brown.css') }}" title="brown" media="all" />-->
         <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/dark.css') }}" title="dark" media="all" />
-        <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/rose.css') }}" title="rose" media="all" />
-        <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/pink.css') }}" title="pink" media="all" />
+        <!-- <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/rose.css') }}" title="rose" media="all" />
+        <link rel="alternate stylesheet" type="text/css" href="{{ asset('switcher/css/pink.css') }}" title="pink" media="all" />-->
         <!-- END Demo Examples -->
 
         <!-- http://www.456bereastreet.com/archive/201209/tell_css_that_javascript_is_available_asap/ -->
@@ -367,9 +367,9 @@
             });
         </script>
 
-        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <!--<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <script src="{{ asset('js/jquery.gmap.js') }}"></script>
-        <!--<script type="text/javascript">
+        <script type="text/javascript">
             var mapMarkers = [{
                 address: "Saskatoon, SK S7V 0A4 Canada",
                 html: "<strong>We Are ENVATO!</strong><br>Saskatoon, SK S7V 0A4 Canada<br><br><a href='#' onclick='mapCenterAt({latitude: 52.100343, longitude: -106.551482, zoom: 16}, event)'>[+] View Original Map</a>",
@@ -404,7 +404,7 @@
         </script>-->
 
         <!-- ADD Switcher -->
-        <div class="demo_changer text-center">
+        <!--<div class="demo_changer text-center">
             <div class="demo-icon"></div>
             <div class="form_holder">
                 <div class="line"></div>
@@ -424,7 +424,7 @@
                     </div>
                 </div>
                 <div class="line"></div>
-                <!--<div class="col-lg-12 clearfix">
+                <div class="col-lg-12 clearfix">
                     <p>Elige una imagen<br>
                         (Select boxed layout)</p>
                     <div class="predefined_styles">
@@ -450,14 +450,14 @@
 
                     <div class="line"></div>
 
-                </div>-->
-            </div><!-- END Switcher -->
-        </div>
+                </div>
+            </div>
+        </div>-->
 
         <!-- Demo Switcher JS -->
         <script type="text/javascript" src="{{ asset('switcher/js/fswit.js') }}"></script>
         <script type="text/javascript" src="{{ asset('switcher/js/jquery.backstretch.js') }}"></script>
-        <script>
+        <!-- <script>
             $("#bg1").click(function(e) {
                 e.preventDefault();
                 $.backstretch("{{ asset('switcher/images/b1-big.png') }}");
@@ -480,7 +480,7 @@
                 e.preventDefault();
                 $.backstretch("{{ asset('switcher/images/b5-big.png') }}");
             });
-        </script>
+        </script>-->
         <!-- DATEPICKER PLUGIN -->
         <script src="{{ asset('bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
         <script src="{{ asset('bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js') }}"></script>

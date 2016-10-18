@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-9" data-animate="fadeInDown">
+        <section class="section1 col-md-9">
             <div class="box" id="contact">
                 @if (Session::has('message'))
                     <div class="alert alert-{{ Session::get('message')[0] }} alert-dismissible" role="alert">
@@ -120,6 +120,6 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 @endsection
