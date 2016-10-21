@@ -71,12 +71,12 @@
     <div class="container">
         <div class="col-lg-6 col-md-6 col-sm-12 text-left">
             <div class="social_buttons">
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-github"></i></a>
                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
-                <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>-->
             </div>
         </div>
     </div><!-- end container -->
@@ -133,56 +133,6 @@
 
 <script src="{{ asset('js/jquery.animate-enhanced.min.js') }}"></script>
 <script src="{{ asset('js/jquery.easypiechart.min.js') }}"></script>
-<!-- ADD Switcher -->
-<div class="demo_changer text-center">
-    <div class="demo-icon"></div>
-    <div class="form_holder">
-        <div class="line"></div>
-        <div class="col-lg-12">
-            <p>Elige tu color favorito</p>
-            <div class="predefined_styles">
-                <a href="#" rel="turquoise" class="styleswitch"><img src="{{ asset('switcher/images/turquoise.jpg') }}" alt=""></a>
-                <a href="#" rel="orange" class="styleswitch"><img src="{{ asset('switcher/images/orange.jpg') }}" alt=""></a>
-                <a href="#" rel="yellow" class="styleswitch"><img src="{{ asset('switcher/images/yellow.jpg') }}" alt=""></a>
-                <a href="#" rel="blue" class="styleswitch"><img src="{{ asset('switcher/images/blue.jpg') }}" alt=""></a>
-                <a href="#" rel="red" class="styleswitch"><img src="{{ asset('switcher/images/red.jpg') }}" alt=""></a>
-                <a href="#" rel="green" class="styleswitch"><img src="{{ asset('switcher/images/green.jpg') }}" alt=""></a>
-                <a href="#" rel="brown" class="styleswitch"><img src="{{ asset('switcher/images/brown.jpg') }}" alt=""></a>
-                <a href="#" rel="dark" class="styleswitch"><img src="{{ asset('switcher/images/dark.jpg') }}" alt=""></a>
-                <a href="#" rel="rose" class="styleswitch"><img src="{{ asset('switcher/images/rose.jpg') }}" alt=""></a>
-                <a href="#" rel="pink" class="styleswitch"><img src="{{ asset('switcher/images/pink.jpg') }}" alt=""></a>
-            </div>
-        </div>
-        <div class="line"></div>
-        <!--<div class="col-lg-12 clearfix">
-                    <p>Elige una imagen<br>
-                        (Select boxed layout)</p>
-                    <div class="predefined_styles">
-                        <a id="bg1"><img src="{{ asset('switcher/images/bg1.png') }}" alt="" /></a>
-                        <a id="bg2"><img src="{{ asset('switcher/images/bg2.png') }}" alt="" /></a>
-                        <a id="bg3"><img src="{{ asset('switcher/images/bg3.png') }}" alt="" /></a>
-                        <a id="bg4"><img src="{{ asset('switcher/images/bg4.png') }}" alt="" /></a>
-                        <a id="bg5"><img src="{{ asset('switcher/images/bg5.png') }}" alt="" /></a>
-                    </div>
-
-                    <div class="line"></div>
-
-                    <p>SELECT LAYOUT</p>
-                    <select class="form-control" name="forma" onchange="location = this.options[this.selectedIndex].value;">
-                        <option value="">-- Select --</option>
-                        <option value="index.html">Wide</option>
-                        <option value="index-boxed.html">Boxed</option>
-                    </select>
-
-                    <div class="line"></div>
-
-                    <a rel="stylesheet" class="button styleswitch" href="indexc392.html?default=true">RESET STYLE</a>
-
-                    <div class="line"></div>
-
-                </div>-->
-    </div><!-- END Switcher -->
-</div>
 
 <!-- Demo Switcher JS -->
 <script type="text/javascript" src="{{ asset('switcher/js/fswit.js') }}"></script>

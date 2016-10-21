@@ -28,7 +28,7 @@
                         <p>En esta sección podras consultar los manuales asi como el Help Desk</p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
-                        <img src="{{ asset('demos/office.png') }}" alt="" class="img-responsive">
+                        <img src="{{ asset('images/corporativo-ws.jpg') }}" alt="" class="img-responsive">
                     </div>
 
                     <div class="clearfix"></div>

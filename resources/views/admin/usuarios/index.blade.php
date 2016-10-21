@@ -115,9 +115,7 @@
                 </nav>
                     <hr>
                 <div class="text-center">
-                    <form action="{{ url('/admin/usuarios/create') }}" method="GET" class="form-horizontal">
-                        <button class="btn btn-success">Agregar Nuevo Usuario</button>
-                    </form>
+                    <p><a class="btn btn-block btn-success" href="{{ url('/admin/usuarios/create') }}">Agregar Usuario</a></p>
                 </div>
             </div>
         </section>

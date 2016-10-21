@@ -3,7 +3,7 @@
     <div class="col-md-12">
 
         <ul class="breadcrumb">
-            <li><a href="#">Comunicación a la fuerza de ventas</a>
+            <li><a href="#">Contáctanos</a>
             </li>
             <li>Nuestras Políticas/Código de Ética</li>
         </ul>
@@ -13,20 +13,20 @@
     <section class="transparent2 clearfix">
         <div class="transparent-wrap">
             <div class="container">
-                <h1>Comunicación a la fuerza de ventas</h1>
+                <h1>Contáctanos</h1>
 
                 <form>
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="firstname">Nombre del empleado</label>
-                                <input type="text" class="form-control" id="firstname">
+                                <input type="text" class="form-control" id="firstname" value="{{ Auth::user()->name }}">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="lastname">Email</label>
-                                <input type="text" class="form-control" id="lastname">
+                                <input type="text" class="form-control" id="lastname" value="{{ Auth::user()->email }}">
                             </div>
                         </div>
                         <div class="col-sm-12">

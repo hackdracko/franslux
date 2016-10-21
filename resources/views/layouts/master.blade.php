@@ -71,12 +71,12 @@
             <div class="container">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-left">
                     <div class="social_buttons">
-                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-github"></i></a>
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>-->
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 social_buttons text-right">
@@ -122,11 +122,11 @@
                                     </li>
                                     <li class="{{ Request::is('politicas') ? 'active' : '' }}"><a href="/politicas">Politicas y Procedimientos</a>
                                     </li>
-                                    <li class="{{ Request::is('comunicacion') ? 'active' : '' }}"><a href="/comunicacion">Comunicación a la fuerza de ventas</a>
-                                    </li>
                                     <li class="{{ Request::is('recursoshumanos') || Request::is('recursoshumanos/recibos') || Request::is('recursoshumanos/vacaciones') ? 'active' : '' }}"><a href="/recursoshumanos">RH +</a>
                                     </li>
                                     <li class="{{ Request::is('sistemas') ? 'active' : '' }}"><a href="/sistemas">Sistemas</a>
+                                    </li>
+                                    <li class="{{ Request::is('comunicacion') ? 'active' : '' }}"><a href="/comunicacion">Contáctanos</a>
                                     </li>
                                 </ul>
                             </div><!-- /.navbar-collapse -->

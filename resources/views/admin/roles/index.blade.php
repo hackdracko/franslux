@@ -113,9 +113,7 @@
                 </nav>
                 <hr>
                 <div class="text-center">
-                    <form action="{{ url('/admin/roles/create') }}" method="GET" class="form-horizontal">
-                        <button class="btn btn-success">Agregar Nuevo Rol</button>
-                    </form>
+                    <p><a class="btn btn-block btn-success" href="{{ url('/admin/roles/create') }}">Agregar Nuevo Rol</a></p>
                 </div>
             </div>
         </div>
