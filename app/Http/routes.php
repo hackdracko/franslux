@@ -84,6 +84,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/recursoshumanos/recibos', 'ReciboController@recibosByUser');
 });
 
+Route::get('/mail', 'MailController@sendMail');
+
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
