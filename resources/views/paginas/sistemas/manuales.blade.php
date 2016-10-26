@@ -33,11 +33,11 @@
                             <li><p class="text-muted text-left">ACCESO A VPN DE USUARIOS <a href="{{ asset('archivos/manuales/Acceso a VPN para usuarios.docx') }}" download>Descargar</a>.</p></li>
                             <li><p class="text-muted text-left">CORREO FRANSLUX <a href="{{ asset('archivos/manuales/Correo Franslux.com.docx') }}" download>Descargar</a>.</p></li>
                             <li><p class="text-muted text-left">HELP DESK <a href="{{ asset('archivos/manuales/HelpDesk.pdf') }}" download>Descargar</a>.</p></li>
-                            <li><p class="text-muted text-left">R-SI63-005 Rev. 01 Comprobante de Entrega <a href="{{ asset('archivos/manuales/R-SI63-005 Rev. 01 Comprobante de Entrega.docx') }}" download>Descargar</a>.</p></li>
-                            <li><p class="text-muted text-left">R-SI63-006 Rev 01 Entrega de equipo <a href="{{ asset('archivos/manuales/R-SI63-006 Rev 01 Entrega de equipo.xlsx') }}" download>Descargar</a>.</p></li>
-                            <li><p class="text-muted text-left">R-SI63-007 Rev 01 Carta Responsiva Equipos <a href="{{ asset('archivos/manuales/R-SI63-007 Rev 01 Carta Responsiva Equipos.docx') }}" download>Descargar</a>.</p></li>
-                            <li><p class="text-muted text-left">R-SI63-008 Rev. 01 SALIDA DEL EQUIPO <a href="{{ asset('archivos/manuales/R-SI63-008 Rev. 01 SALIDA DEL EQUIPO.docx') }}" download>Descargar</a>.</p></li>
-                            <li><p class="text-muted text-left">R-SI63-011-Rev. 01 CARTA RESPONSIVA CELULAR <a href="{{ asset('archivos/manuales/R-SI63-011-Rev. 01 CARTA RESPONSIVA CELULAR.docx') }}" download>Descargar</a>.</p></li>
+                            <li><p class="text-muted text-left">Comprobante de Entrega <a href="{{ asset('archivos/manuales/R-SI63-005 Rev. 01 Comprobante de Entrega.docx') }}" download>Descargar</a>.</p></li>
+                            <li><p class="text-muted text-left">Entrega de equipo <a href="{{ asset('archivos/manuales/R-SI63-006 Rev 01 Entrega de equipo.xlsx') }}" download>Descargar</a>.</p></li>
+                            <li><p class="text-muted text-left">Carta Responsiva Equipos <a href="{{ asset('archivos/manuales/R-SI63-007 Rev 01 Carta Responsiva Equipos.docx') }}" download>Descargar</a>.</p></li>
+                            <li><p class="text-muted text-left">SALIDA DEL EQUIPO <a href="{{ asset('archivos/manuales/R-SI63-008 Rev. 01 SALIDA DEL EQUIPO.docx') }}" download>Descargar</a>.</p></li>
+                            <li><p class="text-muted text-left">CARTA RESPONSIVA CELULAR <a href="{{ asset('archivos/manuales/R-SI63-011-Rev. 01 CARTA RESPONSIVA CELULAR.docx') }}" download>Descargar</a>.</p></li>
                             <li><p class="text-muted text-left">SOLICITUD DE EQUIPO <a href="{{ asset('archivos/manuales/Solicitud de Equipo.pdf') }}" download>Descargar</a>.</p></li>
                         </div>
                         <div class="col-md-9">

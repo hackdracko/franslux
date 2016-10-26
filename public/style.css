@@ -22,7 +22,7 @@
 	* { 
 		margin: 0;
 		padding: 0px;
-		font-family: "Open Sans";
+		font-family: 'Josefin Sans', sans-serif;
 	} 
 	body { 
 		background: #f8f8f8; 
@@ -34,8 +34,8 @@
 	
 	p { 
 		padding: 0; 
-		margin-bottom: 12px; 
-		font-family: "Open Sans" !important; 
+		margin-bottom: 12px;
+		font-family: 'Josefin Sans', sans-serif !important;
 		font-weight: 300;
 		font-size: 14px; 
 		line-height: 24px;
@@ -203,7 +203,7 @@
 		padding:20px 10px;
 	}
 	.quote-post:after {
-		font-family: 'FontAwesome';
+		font-family: 'Josefin Sans', sans-serif;
 		content: "\f10e";
 		padding-right:35px;
 		right:0;
@@ -485,7 +485,7 @@
 		font-size:11px;
 		font-style:italic;
 		color:#798184;
-		font-family: 'Droid Serif', Georgia, "Times New Roman", serif !important;
+		font-family: 'Josefin Sans', sans-serif !important;
 		font-weight:300;
 		list-style: none outside none;
 		margin: 20px 0 0;
@@ -512,7 +512,7 @@
 		height:40px !important;
 		float:left !important;
 		display:inline !important;
-		font-family: 'Droid Serif', Georgia, "Times New Roman", serif !important;
+		font-family: 'Josefin Sans', sans-serif !important;
 		font-weight:normal !important;
 		font-style:italic !important;		
 		font-size:11px !important;
@@ -709,10 +709,10 @@
 		color:#ffffff;
 	}
 	.copyrights {
-		background:#3E4246;
+		background:#000000;
 		padding:0;
 		font-size:12px;
-		border-top:1px solid #3E4246;
+		border-top:1px solid #000000;
 		margin-top:15px;
 	}
 	.copyrights a {
@@ -963,7 +963,7 @@
 		color: #fff;
 		z-index: 90;
 		font-size: 14px;
-		font-family: 'FontAwesome';
+		font-family: 'Josefin Sans', sans-serif;
 		speak: none;
 		font-style: normal;
 		font-weight: normal;
@@ -1071,7 +1071,7 @@
 	.item_price h3 span {
 		color: #2B2E31;
 		display: block;
-		font-family: 'Helvetica Neue';
+		font-family: 'Josefin Sans', sans-serif;
 		font-size: 41px;
 		font-weight: 400;
 		margin: 25px 0 0;
@@ -1138,7 +1138,7 @@
 	}
 	.general-title p {
 		color: #696E74;
-		font-family: 'Droid Serif', Georgia, "Times New Roman", serif !important;
+		font-family: 'Josefin Sans', sans-serif !important;
 		font-size: 18px;
 		font-style: italic;
 		font-weight: 300;
@@ -1445,7 +1445,7 @@
 		transition: background 0.3s ease-out;
 	}
 	.testimonial:after {
-		font-family: 'FontAwesome';
+		font-family: 'Josefin Sans', sans-serif;
 		content: "\f10e";
 		padding-right:5px;
 		right:0;
@@ -1467,7 +1467,7 @@
 		font-style:italic;
 		color:#798184;
 		padding:0 10px;
-		font-family: 'Droid Serif', Georgia, "Times New Roman", serif !important;
+		font-family: 'Josefin Sans', sans-serif !important;
 		font-weight:300;
 	}
 	
@@ -1530,7 +1530,7 @@
 		font-weight: normal !important;
 	}
 	button:hover, button:focus, .button:hover, .button:focus {
-		background-color: #3E4246;
+		background-color: #000000;
 	}
 	button:hover, button:focus, .button:hover, .button:focus {
 		color: white;
@@ -1624,7 +1624,7 @@
 		width:80px !important;	
 		height:80px !important;
 		margin: 25px 15px !important;
-		background:#3E4246 !important;
+		background:#000000 !important;
 	}
 	
 	.services_lists_boxes_icon_none i:hover,
@@ -2175,7 +2175,7 @@
 		overflow: auto;
 	}
 	.dmtop:hover {
-		background-color: #3E4246;
+		background-color: #000000;
 	}
 	.js-video {
 		height: 0;
@@ -2275,7 +2275,7 @@
 	}
 	#post-tags a:hover,
 	#sidebar .tagcloud a:hover {
-		 background: #3E4246 !important; 
+		 background: #000000 !important;
 		 color: #fff !important; 
 		 text-decoration: none; 
 		 -webkit-transition: all .01s ease-out; 
@@ -2309,7 +2309,7 @@
 	a.readmore {
 		text-transform:none;
 		display: block;
-		font-family: 'Droid Serif', Georgia, "Times New Roman", serif !important;
+		font-family: 'Josefin Sans', sans-serif !important;
 		font-size:12px;
 		font-style:italic;
 	}
@@ -2324,7 +2324,7 @@
 	.testimonial img,
 	.recent_posts img,
 	.flickr img  {	
-		border:1px solid #3E4246;
+		border:1px solid #000000;
 		-webkit-transition: opacity 0.2s ease-in-out;
 		-moz-transition: opacity 0.2s ease-in-out;
 		-ms-transition: opacity 0.2s ease-in-out;
@@ -2361,7 +2361,7 @@
 	.pricing li:before,
 	.check li:before {
 		content: "\f00c";
-		font-family: "FontAwesome";
+		font-family: 'Josefin Sans', sans-serif;
 		font-size: 16px;
 		left: 0;
 		padding-right:5px;

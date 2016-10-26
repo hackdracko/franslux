@@ -34,12 +34,11 @@
         <section class="transparent clearfix">
             <div class="transparent-wrap">
                 <div class="container">
-                    <div class="general-title text-center">
-                        <div class="col-lg-9 col-md-9 col-sm-12">
-                            <h2>NUESTRA VISIÓN</h2>
-                            <p>SER CREADORES DE MARCAS INNOVADORAS, Y UN SINÓNIMO EN LA INDUSTRIA DE ELEGANCIA Y RESPONSABILIDAD ÉTICA</p>
+                    <div class="text-center">
+                        <div class="col-lg-9 col-md-9 col-sm-12 message">
+                            <h2 class="big-title">NUESTRA VISIÓN</h2>
+                            <p class="small-title">SER CREADORES DE MARCAS INNOVADORAS, Y UN SINÓNIMO EN LA INDUSTRIA DE ELEGANCIA Y RESPONSABILIDAD ÉTICA</p>
                         </div>
-                    </div>
                     <div class="text-center">
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="servicebox text-center">
@@ -64,10 +63,11 @@
 
                 <!-- <embed src="{{ asset('archivos/empresa/PoliticadeCodigodeConductaEtica.pdf') }}" width="800px" height="800px" /> -->
                     </p>
+                    <p>Si deseas enviar una denuncia al código de ética, envía un formulario <a href="/comunicacion">Contáctanos</a></p>
                 </div>
             </div><!-- end message -->
         </section><!-- end section2 -->
-        <section class="transparent clearfix">
+        <!-- <section class="transparent clearfix">
             <div class="transparent-wrap">
                 <div class="container">
                     <h1>Denuncias al código de ética</h1>
@@ -104,10 +104,9 @@
 
                             </div>
                         </div>
-                        <!-- /.row -->
                     </form>
 
-                </div> <!-- end clients wrap -->
-            </div><!-- end container -->
-        </section><!-- end of clients -->
+                </div>
+            </div>
+        </section>-->
     @endsection
