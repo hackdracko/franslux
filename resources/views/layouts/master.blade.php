@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-md-offset-6 col-lg-6 col-md-6 col-sm-12 text-right social_buttons">
                     <div class="col-md-2">
-                        <a href="http://cepe.com.mx/franslux/tienda" target="_blank">Tienda</a>
+                        <a href="http://cepe.com.mx/franslux/mi-cuenta/" target="_blank">Tienda</a>
                     </div>
                     <div class="col-md-4 text-center">
                         <a href="{{ url('/admin') }}">Administración</a>

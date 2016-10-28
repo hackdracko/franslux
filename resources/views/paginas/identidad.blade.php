@@ -11,7 +11,7 @@
         </div>
         <section class="slideshow-wrapper">
             <div id="slider-wrapper">
-                <div id="layerslider" style="width:100%;height:550px;">
+                <div id="layerslider" style="width:100%;height:500px;">
                     <div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
                         <img src="demos/mbg1.jpg" class="ls-bg" alt="Slide background"/>
 
