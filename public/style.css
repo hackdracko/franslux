@@ -36,7 +36,6 @@
 		padding: 0; 
 		margin-bottom: 12px;
 		font-family: 'Josefin Sans', sans-serif !important;
-		font-weight: 300;
 		font-size: 14px; 
 		line-height: 24px;
 		color: #696E74; 
@@ -56,7 +55,6 @@
 		width: 100%;
 	}
 	img {
-		height: auto;
 		max-width: 100%;
 	}
 	.hidden { display: none; }
@@ -169,15 +167,13 @@
 	}
 	dl dt {
 	  margin-bottom: 0.3em;
-	  font-weight: bold;
 	}
 	dl dd {
 	  margin-bottom: 0.75em;
 	}
 	.lead {
 		font-size:21px; 
-		padding:15px 0; 
-		font-weight:400;
+		padding:15px 0;
 	}
 	section::before,
 	section::after {
@@ -365,11 +361,9 @@
 	.notfound .small-title {
 		margin:30px 0;	
 		width:60%;
-		font-weight:300;
 		line-height:1.5;
 	}
 	body.nobg #layerslider * {
-		font-weight: 300;
 	}
 	body.nobg #layerslider h1 {
 		font-size: 30px;
@@ -387,7 +381,6 @@
 	}
 	body.nobg #countdown {   
 		font-size: 14px;
-		font-weight: 300;
 		line-height: 20px;
 		padding: 0 ;
 	}
@@ -471,7 +464,6 @@
 	.post-wrapper-top h2 {
 		border-bottom: 3px solid #fff;
 		display: inline-block;
-		font-weight:500;
 		font-size:1.8em;
 		padding: 0 0 20px;
 		color:#2B2E31;
@@ -486,7 +478,6 @@
 		font-style:italic;
 		color:#798184;
 		font-family: 'Josefin Sans', sans-serif !important;
-		font-weight:300;
 		list-style: none outside none;
 		margin: 20px 0 0;
 		padding: 0;
@@ -553,8 +544,7 @@
 		-moz-border-radius:5px;
 	}
 	#contact legend { 
-		padding:7px 10px; 
-		font-weight:bold; 
+		padding:7px 10px;
 		color:#000; 
 		border:1px solid #eee; 
 		-webkit-border-radius:5px; 
@@ -605,7 +595,6 @@
 	}
 	.top-bar-section a {
 		background:#ffffff !important;
-		text-transform:uppercase;
 	}
 	
 	.top-bar-section .dropdown {border-top:2px solid #000}
@@ -618,7 +607,6 @@
 	.top-bar-section ul li.active > a,
 	.top-bar-section ul li > a {
 		color: #2B2E31;
-		font-weight:400;
 	}
 	.header	{
 		background:#ffffff;
@@ -644,7 +632,6 @@
 		margin-left:10px;
 		color:#ffffff;
 		letter-spacing:0.65px;
-		font-weight:300;
 	}
 	.callus p {
 		margin:8px;
@@ -740,8 +727,6 @@
 		 border-top: 3px solid #FFFFFF;
 		color: #656565;
 		font-size: 12px;
-		font-weight: 400;
-		text-transform:uppercase;
 		line-height: 1.573em;
 		padding: 17px 15px;
 		text-decoration: none;
@@ -867,9 +852,7 @@
 	.transparent-wrap .general-title h3 {
 		color: #FFFFFF;
 		font-size: 38px;
-		font-weight: 700;
 		letter-spacing: -0.8px;
-		text-transform: uppercase;
 	}
 	.transparent-wrap {
 		padding: 30px 0;
@@ -886,11 +869,9 @@
 		background:#2B2E31;
 	}
 	.general-title h3 {
-		font-weight: 600;
 		letter-spacing: -0.65px;
 		font-size:31px;
 		padding: 20px 0 0;
-		text-transform: uppercase;
 	}
 	.title{
 		position:relative;
@@ -927,17 +908,13 @@
 		color:#ffffff;
 		margin:30px 0 0;
 		font-size:18px;
-		text-transform:uppercase;
 	}
 	.message .big-title {
 		letter-spacing:-0.80px;
-		color:#ffffff; 
-		text-transform:uppercase; 
-		font-size:38px; 
-		font-weight:700;
+		color:#ffffff;
+		font-size:28px;
 	}
 	.message h3 {
-		text-transform:uppercase; 
 		font-weight:700;
 	}
 	.message .button {
@@ -957,7 +934,6 @@
 		width: 100%;
 		font-size: 21px;
 		letter-spacing:-0.65px;
-		font-weight: 500;
 	 }
 	.services_lists_boxes_icon:after {
 		color: #fff;
@@ -1029,7 +1005,7 @@
 	.portfolio_category a {color:#ffffff;}
 	.portfolio-item .title:before {border-radius:0; display:none}
 	.portfolio-item p {margin:0px 0 30px;}
-	.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+	.portfolio-item h3 {margin:-10px 0 10px; font-size:16px;}
 	.portfolio_details {
 		margin: 0;
 		border: 0;
@@ -1073,7 +1049,6 @@
 		display: block;
 		font-family: 'Josefin Sans', sans-serif;
 		font-size: 41px;
-		font-weight: 400;
 		margin: 25px 0 0;
 		text-align: center;
 	}
@@ -1091,7 +1066,6 @@
 	.portfolio_details h3,
 	.theme_details h3 {
 		font-size: 16px;
-		font-weight: bold;
 		margin: 0 0 20px;
 	}
 	
@@ -1141,7 +1115,6 @@
 		font-family: 'Josefin Sans', sans-serif !important;
 		font-size: 18px;
 		font-style: italic;
-		font-weight: 300;
 		line-height: 1;
 		padding: 10px 0;
 	}
@@ -1204,7 +1177,6 @@
 		padding: 0;
 	}
 	.portfolio-filter li a {
-		text-transform:uppercase;
 	}
 	
 	.portfolio-wrapper {
@@ -1234,7 +1206,6 @@
 		font-size:21px;
 		text-align:left;
 		border-left:3px solid #EC353D;
-		font-weight: 400;
 		color: rgba(255,255,255,0.9);
 	}
 	.owl-carousel .item small {
@@ -1327,7 +1298,6 @@
 		border-radius:500px;
 		text-align: center;
 		margin:10px 0;
-		font-weight:600;
 		font-size: 2.4em;
 		line-height: 100px;
 		color: #fff;
@@ -1344,7 +1314,6 @@
 	.pricing li {
 		border-bottom: 1px solid #DCDBD7;
 		font-size: 13px;
-		font-weight: 100;
 		line-height: 34px;
 		margin: 0 auto;
 		padding: 0;
@@ -1378,14 +1347,12 @@
 
 	.highlight {
 		font-size: 61px;
-		font-weight: 700;
 		line-height: 1;
 		margin: 30px 0 0;
 	}
 	.milestone-details {
 		font-size: 18px;
 		color:#2B2E31;
-		font-weight: 400;
 		letter-spacing: -0.5px;
 		padding: 10px 0 20px;
 	}
@@ -1404,7 +1371,6 @@
 		font-size: 40px;
 		letter-spacing: -3px;
 		line-height: 210px;
-		font-weight:bold;
 		position: absolute;
 		text-align: center;
 		top: -3px;
@@ -1468,7 +1434,6 @@
 		color:#798184;
 		padding:0 10px;
 		font-family: 'Josefin Sans', sans-serif !important;
-		font-weight:300;
 	}
 	
 	.testimonial img {
@@ -2078,7 +2043,6 @@
 	{
 		border-radius:100%;
 		font-size:30px;
-		font-weight:bold;
 		color:#fff;
 		background:#c00;
 		line-height:60px;
@@ -2097,7 +2061,6 @@
 	.tpl5 .buy
 	{
 		font-size:16px;
-		font-weight:bold;
 		color:#fff;
 		text-decoration:none;
 		position:absolute;
@@ -2138,7 +2101,6 @@
 		font-size: 25px;
 		margin: 0;
 		padding: 90px 5px 0;
-		text-transform: uppercase;
 	}
 	.tpl6 h3
 	{
@@ -2146,7 +2108,6 @@
 		margin:0;
 		padding:40px 5px 0;
 		font-size:16px;
-		text-transform:uppercase;
 	}
 	.tpl6 .dmbutton
 	{
@@ -2252,7 +2213,6 @@
 	}
 	.widget h3,
 	.widget h4 {
-		font-weight:500;
 		font-size:18px;
 		letter-spacing:0;
 	}
@@ -2266,8 +2226,7 @@
 		font-size: 12px !important; 
 		line-height: 1.4em !important; 
 		color: #fff !important; 
-		text-decoration: none; 
-		font-weight: 300; 
+		text-decoration: none;
 		letter-spacing: 1px; 
 		-webkit-transition: all .4s ease-out; 
 		-moz-transition: all .4s linear; 

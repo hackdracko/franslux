@@ -10,8 +10,8 @@
 
     </div>
 
-    <section class="transparent2 clearfix">
-        <div class="transparent-wrap">
+    <section class="section3">
+        <div class="text-center">
             <div class="container">
                 <h1>Contáctanos</h1>
 

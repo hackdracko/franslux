@@ -100,10 +100,10 @@
         <header class="header">
             <div class="container">
                 <div class="site-header clearfix">
-                    <div class="col-lg-3 col-md-3 col-sm-12 title-area pull-left">
+                    <div class="col-lg-3 col-md-3 col-sm-12 title-area text-right">
                         <div class="site-title" id="title">
                             <a href="/" title="">
-                                <img src="{{ url('images/logo.png') }}" alt="">
+                                <img height="65px" src="{{ url('images/logo.png') }}" alt="">
                             </a>
                         </div>
                     </div><!-- title area -->

@@ -10,11 +10,11 @@
 
     </div>
 
-    <section class="section2">
-        <div class="message text-center">
+    <section class="section1">
+        <div class="text-center">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                    <p class="text-muted text-center">Política de Autos Utilitarios <a href="{{ asset('archivos/empresa/POLITICA DE AUTOS UTILITARIOS.pdf') }}" download>Descargar</a>.</p>
-                    <p class="text-muted text-center">Política de Código de Conducta Ética <a href="{{ asset('archivos/empresa/PoliticadeCodigodeConductaEtica.pdf') }}" download>Descargar</a>.</p>
+                    <h5 style="color: #92928F">Política de Autos Utilitarios <a href="{{ asset('archivos/empresa/POLITICA DE AUTOS UTILITARIOS.pdf') }}" download>Descargar</a>.</h5>
+                    <h5 style="color: #92928F">Política de Código de Conducta Ética <a href="{{ asset('archivos/empresa/PoliticadeCodigodeConductaEtica.pdf') }}" download>Descargar</a>.</h5>
                     <!-- <embed src="{{ asset('archivos/empresa/PoliticadeCodigodeConductaEtica.pdf') }}" width="800px" height="800px" /> -->
                 </p>
             </div>

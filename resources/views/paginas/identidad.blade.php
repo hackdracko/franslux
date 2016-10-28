@@ -11,7 +11,7 @@
         </div>
         <section class="slideshow-wrapper">
             <div id="slider-wrapper">
-                <div id="layerslider" style="width:100%;height:500px;">
+                <div id="layerslider" style="width:100%;height:580px;">
                     <div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
                         <img src="demos/mbg1.jpg" class="ls-bg" alt="Slide background"/>
 
@@ -33,16 +33,16 @@
         </section><!-- end section2 -->
         <section class="transparent clearfix">
             <div class="transparent-wrap">
-                <div class="container">
+                <div class="container message">
                     <div class="text-center">
                         <div class="col-lg-9 col-md-9 col-sm-12 message">
-                            <h2 class="big-title">NUESTRA VISIÓN</h2>
-                            <p class="small-title">SER CREADORES DE MARCAS INNOVADORAS, Y UN SINÓNIMO EN LA INDUSTRIA DE ELEGANCIA Y RESPONSABILIDAD ÉTICA</p>
+                            <h2 class="big-title">Nuestra Visión</h2>
+                            <p class="small-title">Ser creadores de marcas innovadoras, y un sinónimo en la industria de elegancia y responsabilidad ética</p>
                         </div>
                     <div class="text-center">
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="servicebox text-center">
-                                <img src="{{ asset('images/ventas2.jpg') }}" alt="">
+                                <img height="204.89px" width="307.25px" src="{{ asset('images/vision.jpg') }}" alt="">
                             </div><!-- large-3 -->
                         </div>
                     </div><!-- end message -->
