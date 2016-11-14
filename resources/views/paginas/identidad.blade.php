@@ -32,23 +32,16 @@
             </div><!-- end message -->
         </section><!-- end section2 -->
         <section class="transparent clearfix">
-            <div class="transparent-wrap">
-                <div class="container message">
-                    <div class="text-center">
-                        <div class="col-lg-9 col-md-9 col-sm-12 message">
-                            <h2 class="big-title">Nuestra Visión</h2>
-                            <p class="small-title">Ser creadores de marcas innovadoras, y un sinónimo en la industria de elegancia y responsabilidad ética</p>
-                        </div>
-                    <div class="text-center">
-                        <div class="col-lg-3 col-md-3 col-sm-12">
-                            <div class="servicebox text-center">
-                                <img height="204.89px" width="307.25px" src="{{ asset('images/vision.jpg') }}" alt="">
-                            </div><!-- large-3 -->
-                        </div>
-                    </div><!-- end message -->
-                </div> <!-- end clients wrap -->
-            </div><!-- end container -->
-        </section><!-- end of clients -->
+            <div class="transparent-wrap text-center">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                    <h2 class="big-title" style="color: white">Nuestra Visión</h2>
+                    <p class="small-title" style="color: white">Ser creadores de marcas innovadoras, y un sinónimo en la industria de elegancia y responsabilidad ética</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <img src="{{ asset('images/vision.jpg') }}" alt="" class="img-responsive">
+                </div><!-- large-3 -->
+            </div><!-- end message -->
+        </section><!-- end section2 -->
         <section class="section2">
             <div class="message text-center">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -109,4 +102,11 @@
                 </div>
             </div>
         </section>-->
+    @endsection
+    @section('javascript')
+        <script type="text/javascript">
+            $(window).load(function(){
+                $('#comunicado').modal('show');
+            });
+        </script>
     @endsection

@@ -34,8 +34,6 @@
                         <p class="text-muted text-left">Descripción de Puestos <a href="{{ asset('archivos/empresa/DESCRIPCION DE PUESTOS.doc') }}" download>Descargar</a>.</p>
                         <p class="text-muted text-left">Formato de Aceptación SGMM <a href="{{ asset('archivos/empresa/FORMATO ACEPTACION SGMM.doc') }}" download>Descargar</a>.</p>
                         <p class="text-muted text-left">Formatos RRHH <a href="{{ asset('archivos/empresa/FORMATOS RRHH.xlsm') }}" download>Descargar</a>.</p>
-                        <p class="text-muted text-left">Política de Autos Utilitarios <a href="{{ asset('archivos/empresa/POLITICA DE AUTOS UTILITARIOS.pdf') }}" download>Descargar</a>.</p>
-                        <p class="text-muted text-left">Política de Código de Conducta Ética <a href="{{ asset('archivos/empresa/PoliticadeCodigodeConductaEtica.pdf') }}" download>Descargar</a>.</p>
                         <p class="text-muted text-left">Seguro de Vida <a href="{{ asset('archivos/empresa/SEGURO DE VIDA.pdf') }}" download>Descargar</a>.</p>
                     </div>
                     <div class="container col-lg-4 col-md-4 col-sm-4 col-xs-12">

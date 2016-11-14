@@ -46,6 +46,7 @@
                     <thead>
                     <tr>
                         <th class="text-center">Nombre</th>
+                        <th class="text-center">Usuario</th>
                         <th class="text-center">Email</th>
                         <th class="text-center">Fecha Registro</th>
                         <th class="text-center">Fecha Actualización</th>
@@ -58,6 +59,7 @@
                     @foreach ($users as $user)
                         <tr>
                             <td class="table-text text-center">{{ $user->name }}</td>
+                            <td class="table-text text-center">{{ $user->username }}</td>
                             <td class="table-text text-center">{{ $user->email }}</td>
                             <td class="table-text text-center">{{ $user->created_at }}</td>
                             <td class="table-text text-center">{{ $user->updated_at }}</td>

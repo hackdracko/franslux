@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 social_buttons text-right">
-                    Bienvenido {{ Auth::user()->name }} | {{ Auth::user()->email }}
+                    Bienvenido {{ Auth::user()->name }} | {{ Auth::user()->username }}
                 </div>
                 <div class="col-md-offset-6 col-lg-6 col-md-6 col-sm-12 text-right social_buttons">
                     <div class="col-md-2">
@@ -138,6 +138,29 @@
         </header><!-- end header -->
         <div id="content">
             @yield('content')
+            <!-- Button trigger modal -->
+                <!-- Modal -->
+                <div class="modal fade" id="comunicado" tabindex="-1" role="dialog" aria-labelledby="comunicadoLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="comunicadoLabel">Comunicado Importante</h4>
+                            </div>
+                            <div class="modal-body">
+                                <b>
+                                Este jueves y viernes, recibiremos la visita de Too Faced; por lo
+                                que es requerido que los colaboradores de BT 119, vistan de manera
+                                formal.
+                                    <img src="{{asset('images/Paris Hilton comunicado.jpg')}}">
+                                </b>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
         <footer class="footer">
             <!--<div class="container">

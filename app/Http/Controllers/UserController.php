@@ -48,12 +48,14 @@ class UserController extends Controller
     {
         $nombre = Input::get('nombre');
         $email = Input::get('email');
+        $username = Input::get('username');
         $password = Input::get('password');
         $rpassword = Input::get('rpassword');
 
         $this->validate($request, [
             'nombre' => 'required',
             'email' => 'required|email',
+            'username' => 'required',
             'password' => 'required',
             'rpassword' => 'required',
         ]);
@@ -61,6 +63,7 @@ class UserController extends Controller
         $user = new User();
         $user->name = $nombre;
         $user->email = $email;
+        $user->username = $username;
         $user->password = Hash::make($password);
         $user->save();
 
@@ -118,11 +121,13 @@ class UserController extends Controller
         $user = User::find($id);
         $user->name = $request->nombre;
         $user->email = $request->email;
+        $user->username = $request->username;
         $user->estatus = $request->estatus;
         $user->password = Hash::make($request->password);
         $this->validate($request, [
             'nombre' => 'required',
             'email' => 'required|email',
+            'username' => 'required',
             'password' => 'required',
             'rpassword' => 'required',
         ]);

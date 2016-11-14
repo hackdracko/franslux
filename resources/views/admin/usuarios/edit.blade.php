@@ -60,6 +60,10 @@
                         <input type="text" class="form-control" name="email" id="email" value="{{ $user->email }}">
                     </div>
                     <div class="form-group">
+                        <label for="username">Usuario</label>
+                        <input type="text" readonly class="form-control" name="username" id="username" value="{{ $user->username }}">
+                    </div>
+                    <div class="form-group">
                         <label for="password">Password</label>
                         <input type="password" class="form-control" name="password" id="password" value="">
                     </div>
